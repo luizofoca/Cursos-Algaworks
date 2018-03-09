@@ -1,0 +1,14 @@
+/*
+.missao strong{
+	color: red;
+}
+
+
+article strong{
+	color: blue;
+}
+*/
+
+article .missao strong{
+	color: green;
+}
