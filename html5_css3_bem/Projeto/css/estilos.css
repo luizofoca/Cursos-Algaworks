@@ -29,20 +29,35 @@ header img{
 	clear: both;
 }
 
+/* excluido para usar grid do bootstrap
 .container {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
-}
+}*/
 
 article {
 	padding: 10px;
 	border: 1px solid #95a4a5;
-	width: 370px;
-	float: left;
-	margin-right: 30px;
+	
 }
+
+/* excluido para usar grid do bootstrap
+@media (min-width: 600px){
+	article {
+		background-color: yellow;
+	}
+}
+
+@media (min-width: 800px) {
+	article {
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
+
+}*/
 
 article > h2 {
 	background-color: #95a4a5;
